@@ -11,6 +11,7 @@ router.post('/addpost', (req, res) => {
         res.send('Post uploaded');
     }).catch(function (e) {
         res.send(e);
+        console.log(e);
     });
 });
 
